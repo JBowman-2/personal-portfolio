@@ -1,36 +1,44 @@
 body, h1, h2, {margin: 0px; padding: 0px;}
 
 nav {
-    
     display: flex;
     justify-content: flex-end;
-    width: 100%;
     position: fixed;
-    background-color: red;
-
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: red;   
 }
 
-#menu{
+.menu {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-right: 2rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
     list-style: none;
-    
-    
-}
-
-li {
-    font-size: 1.5em;
-    padding-left: 15px;
-    
-    
+    width: 250px;
+    font-size: 1.5rem;
+    color: white;
     
 }
 
-li a {
+.meun li { 
+    margin: 1rem;
+}
+
+
+.menu li a {
+    display: block;
     text-decoration: none;
-
+    color: green;
+    padding: .8rem;  
 }
 
-li:hover{
-    background-color: green;
-}
+.menu li a:hover {
+    background-color: black;
+    color: white;
+ }
+
+
+
